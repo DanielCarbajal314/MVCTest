@@ -13,11 +13,13 @@ namespace ProductServiceUnitTest
     [TestClass]
     public class ProductServiceTest
     {
+        // TODO: Use NINJECT to do Dependency Injection
         public List<IProductService> _ProductServices = new List<IProductService>() {
                 new MemoryProductService(),
                 new LocalDatabaseProductService()
         };
 
+        // TODO: Defined a more completed Test Case Escenarios
         [TestMethod]
         public void CreateProduct()
         {

@@ -17,7 +17,9 @@ namespace Presentation.ViewModels
         public string Tittle { get; set; }
         [Required, DataType(DataType.Currency)]
         public int Price { get; set; }
-        public bool commitSuccess { get; set; }
+
+        // This attribute is send to the front-end to inform that the data commited and the form needs to be clear
+        public bool commitSuccess { get; set; } 
 
         public ProductSubmit() {
             this.commitSuccess = false;
@@ -29,6 +31,5 @@ namespace Presentation.ViewModels
             newProduct.Title = this.Tittle;
             return newProduct;
         }
-
     }
 }

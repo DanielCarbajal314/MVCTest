@@ -12,6 +12,7 @@ namespace MemoryRepository.Services
 {
     public class MemoryProductService : IProductService
     {
+        // This is a thread safe collection, to avoid race conditions (Although they are highly improbable)
         private static SynchronizedCollection<GenericProduct> products=new SynchronizedCollection<GenericProduct>();
 
         public MemoryProductService() {

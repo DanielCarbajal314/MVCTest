@@ -20,6 +20,7 @@ namespace Presentation.Controllers
 
         public HomeController()
         {
+            // TODO : Use NINJECT Framework to do the Dependency Injection
             this._productServices = new IProductService[2];
             _productServices[0] = new MemoryProductService();
             _productServices[1] = new LocalDatabaseProductService();
@@ -47,20 +48,6 @@ namespace Presentation.Controllers
             }
             productSubmit.SourceTypes = emptyModel.SourceTypes;
             return View(productSubmit);
-        }
-
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
         }
 
         public ActionResult ProductTable(string type)
