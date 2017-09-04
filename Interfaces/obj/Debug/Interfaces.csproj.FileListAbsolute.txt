@@ -1,0 +1,5 @@
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\Interfaces\bin\Debug\Interfaces.dll
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\Interfaces\bin\Debug\Interfaces.pdb
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\Interfaces\obj\Debug\Interfaces.dll
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\Interfaces\obj\Debug\Interfaces.pdb

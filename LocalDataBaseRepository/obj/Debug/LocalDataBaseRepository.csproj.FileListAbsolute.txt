@@ -1,0 +1,16 @@
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\LocalDataBaseRepository\bin\Debug\LocalDataBaseRepository.dll.config
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\LocalDataBaseRepository\bin\Debug\LocalDataBaseRepository.dll
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\LocalDataBaseRepository\bin\Debug\LocalDataBaseRepository.pdb
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\LocalDataBaseRepository\bin\Debug\AutoMapper.dll
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\LocalDataBaseRepository\bin\Debug\EntityFramework.dll
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\LocalDataBaseRepository\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\LocalDataBaseRepository\bin\Debug\Interfaces.dll
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\LocalDataBaseRepository\bin\Debug\Interfaces.pdb
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\LocalDataBaseRepository\bin\Debug\AutoMapper.xml
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\LocalDataBaseRepository\bin\Debug\EntityFramework.xml
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\LocalDataBaseRepository\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\LocalDataBaseRepository\obj\Debug\LocalDataBaseRepository.csprojResolveAssemblyReference.cache
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\LocalDataBaseRepository\obj\Debug\LocalDataBaseRepository.dll
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\LocalDataBaseRepository\obj\Debug\LocalDataBaseRepository.pdb
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\LocalDataBaseRepository\bin\Debug\es\EntityFramework.resources.dll
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\LocalDataBaseRepository\bin\Debug\es\EntityFramework.SqlServer.resources.dll

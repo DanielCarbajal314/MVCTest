@@ -1,0 +1,9 @@
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\MemoryRepository\bin\Debug\MemoryRepository.dll
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\MemoryRepository\bin\Debug\MemoryRepository.pdb
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\MemoryRepository\bin\Debug\AutoMapper.dll
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\MemoryRepository\bin\Debug\Interfaces.dll
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\MemoryRepository\bin\Debug\Interfaces.pdb
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\MemoryRepository\bin\Debug\AutoMapper.xml
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\MemoryRepository\obj\Debug\MemoryRepository.csprojResolveAssemblyReference.cache
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\MemoryRepository\obj\Debug\MemoryRepository.dll
+c:\users\daniel\documents\visual studio 2015\Projects\SanaTest\MemoryRepository\obj\Debug\MemoryRepository.pdb

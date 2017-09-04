@@ -1,0 +1,75 @@
+﻿@model Presentation.ViewModels.ProductSubmit
+
+@{
+    ViewBag.Title = "Sana's Products ";
+}
+
+<h2>Product Management</h2>
+        @using (Html.BeginForm())
+        {
+            <div class="form-horizontal">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.SelectedSourceType, new { @class = "col-md-2" })
+                    <div class="col-md-6">
+                        @Html.DropDownListFor(model => model.SelectedSourceType, new SelectList(Model.SourceTypes, "Value", "Text"))
+                    </div>
+                </div>
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <fieldset>
+                    <legend>Register a New Product</legend>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Tittle, new { @class = "col-md-2" })
+                        <div class="col-md-6">
+                            @Html.EditorFor(model => model.Tittle)
+                            @Html.ValidationMessageFor(model => model.Tittle, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Price, new { @class = "col-md-2" })
+                        <div class="col-md-6">
+                            @Html.EditorFor(model => model.Price)
+                            @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Register" class="btn btn-default" />
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+        }
+
+
+        <div id="ProductTable">
+            @{Html.RenderAction(
+                                "ProductTable",
+                                "Home",
+                                new { type = Model.SelectedSourceType });
+            }
+        </div>
+
+        <script>
+            // I'm leaving this here for the sake of a quick review, 
+            // in a real enviroment I will move this script to a  a different file 
+
+            function clearForm(){
+                $("#Price").val("");
+                $("#Tittle").val("");
+            }
+
+            $(document).ready(function(){
+                var model = @Html.Raw(Json.Encode(Model));
+                if(model.commitSuccess){
+                    clearForm();
+                }
+            });
+
+            $('#SelectedSourceType').on('change', function() {
+                $.get( "/Home/ProductTable?type="+this.value, function( htmlData ) {
+                    $( "#ProductTable" ).html( htmlData );
+                });
+            })
+        </script>
